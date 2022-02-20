@@ -1,0 +1,185 @@
+:root {
+    --primary-color: aqua;
+    --secondary-color: black;
+    --tertiary-color: gray;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  
+  /* HEADER / NAV BAR STYLES START */
+  
+  header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/header-background.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 35px;
+    color: var(primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+  /* HERO STYLES START */
+
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url("../images/hero-background.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.hero-cta {
+  width: 55%;
+  text-align: left;
+  margin: .5%;
+  color: var(--primary-color);
+  font-size: 25px;
+  line-height: 4.2;
+}
+
+.hero-cta h2 {
+  font-style: bold;
+  font-size: 45px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+    /*FLEX ITEMS START */
+.page section {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.flex-item {
+  border: 5px solid var(--primary-color);
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50%-1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: solf-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+/* feature first portfolio item */
+.flex-item:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.flex-item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+flex-item div {
+  background-color: var(--secondary-color);
+  padding: 8px 10px;
+}
+
+    /*CONTACT STYLE START */
+
+.contact {
+  background-color: var(--secondary-color);
+  padding:30px 30px 60px 0;
+}
+
+.contact h2 {
+  color: var(--primary-color);
+}
+.contact a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+  
+.contact-info div {
+    margin: 7px 0;
+}
+  
+.contact div a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact a:hover {
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 300px;
+}
+  
