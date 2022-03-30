@@ -9,8 +9,7 @@ The purpose of this project was to create a portfolio webpage utilizing my curre
 ![Screenshot 2022-03-30 121156](https://user-images.githubusercontent.com/97137083/160881765-dcc623d4-9ed1-40d0-ae5b-7ac09fb182a5.png)
 
 ## Technology Utilized
-html
-CSS
+HTML and CSS
 
 ## Deployed Application
 https://ek33450505.github.io/Professional-Portfolio/
